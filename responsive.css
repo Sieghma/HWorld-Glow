@@ -1,0 +1,21 @@
+@media only screen and (max-width: 740px) {
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+        background: black;
+        padding: 10px;
+    }
+    
+    h2 {
+        font-size: 7vw;
+        letter-spacing: 0.4em;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+}
