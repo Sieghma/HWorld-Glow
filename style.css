@@ -55,3 +55,18 @@ h2:nth-child(2):hover {
             0 0 20px rgb(60, 0, 255),
             0 0 40px rgb(60, 0, 255);
             }
+
+            @keyframes blink {
+                0%, 100% {
+                    opacity: 1;
+                }
+                50% {
+                    opacity: 0;
+                }
+            }
+            
+            h2:hover {
+                color: #fff;
+                animation: blink 0.2s 3;
+                animation-delay: 1s; 
+            }
